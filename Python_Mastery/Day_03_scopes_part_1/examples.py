@@ -32,6 +32,19 @@ modify(a)
 
 print(a)
 
+
+
+def modify(data):
+    # data = [10]
+    print(id(data))
+    return data
+
+a = [1, 2]
+print(modify(a))
+
+print(id(a))
+
+print(a)
 # ----------------------------------
 # Example 3
 # Local Scope
